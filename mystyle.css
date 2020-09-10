@@ -1,0 +1,39 @@
+ 
+body {
+            background-color: floralwhite;
+            font-family: 'Open Sans', sans-serif;
+        }
+dd{
+    font-size: 20px;
+}
+dt{
+    font-size: 25px;
+}       
+.sidebar {
+    background-color:#111;
+    color: black;
+    position: fixed;
+    height: 100%;
+    width: 185px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 150;
+    overflow-x: hidden;
+}
+.sidebar a{
+    padding: 15px 10px 6px 16px;
+     color:whitesmoke;
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+}
+.sidebar a:hover{
+    color:palegoldenrod;
+}
+.maintext {
+    background-color: floralwhite;
+    margin-left: 185px;
+    padding: 0px 15px;
+    font-size: 30px;
+}
